@@ -15,9 +15,10 @@ para minificar e publicar:
 $ npm run build
 ``` 
 > sera gerada um pasta `dist` onde estarão todos os arquivos minificados.
-
+> sempre fazer um teste prelimidar no site da [ASES](http://asesweb.governoeletronico.gov.br/ases/)
 ## Teste
 para rodar o teste de acessibilidade:
 ``` shell
 $ npm run test
 ```
+> sempre fazer um teste prelimidar no site da [ASES](http://asesweb.governoeletronico.gov.br/ases/)
