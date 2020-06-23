@@ -156,7 +156,6 @@ main .image-container.bottom {
 }
 
 .button-tile {
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -165,6 +164,11 @@ main .image-container.bottom {
     background: none;
     padding-left: 16px;
     font-size: 18px;
+    color: #005890;
+}
+a:visited,
+a:link {
+    text-decoration: none;
     color: #005890;
 }
 
