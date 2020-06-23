@@ -1,44 +1,334 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="assets/css/styles.css">
-	<link rel="stylesheet" href="assets/css/bootstrap.css">
-	<title>Document</title>
-</head>
-<body>
-<header class="bg-dark pt-2">
-	<div class="container">
-		<nav>
-			<ul class="list-unstyled">
-				<li>
-					<a href="#main_content" accesskey="0" class="sr-only text-white">conteudo principal</a>
-				</li>
+<html lang="pt-br">
 
-				<li>
-					<a href="https://ingressorapido.com.br">
-						<h1 class="sr-only">
-							Ingresso Rápido
-						</h1>
-						<img src="assets/img/logo.png" alt="logomarca ingresso rapido">
-					</a>
-				</li>
-			</ul>
-		</nav>
-	</div>
-</header>
-<main >
-	<div id="main_content" class="container">
-		<section tabindex="0">
-			<h2>section 1</h2>
-		</section>
-	</div>
-</main>
-<footer class="bg-dark">
-	<div class="container d-flex flex-column align-items-center">
-	</div>
-</footer>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Ingresso Rápido</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#main_content" accesskey="0" class="sr-only text-white">conteudo principal</a>
+                    </li>
+
+                    <li class="brand">
+                        <a href="https://ingressorapido.com.br">
+                            <img src="assets/img/logo.svg" alt="logomarca ingresso rapido">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="image-container">
+        </div>
+        <div id="main_content" class="container">
+            <section class="info-container">
+                <h1 class="title">
+                    Caso seu evento tenha sido adiado, não se preocupe! Seus ingressos permanecem
+                    automaticamente válidos para a nova data, sem necessidade de troca-los para ver o seu artista
+                    favorito
+                    quando tudo isso passar!
+                </h1>
+
+                <h2 class="subtitle">
+                    Veja abaixo a política de cancelamento, atendendo às determinações da
+                    <a href="http://www.in.gov.br/en/web/dou/-/medida-provisoria-n-948-de-8-de-abril-de-2020-251768019">
+                        Medida Provisória(MP) nº 948
+                    </a>
+                </h2>
+            </section>
+
+            <section class="list-card-container">
+                <ul class="list-unstyled list-card">
+                    <li>
+                        <div class="card-container">
+                            <div class="card-header">
+                                <img src="assets/img/ticket_postponed.svg" class="icon"
+                                    alt="ticket representando eventos adiados">
+                                <span class="title">Eventos Adiados</span>
+                            </div>
+
+                            <div class="card-content">
+                                <p>
+                                    Caso seu evento tenha sido adiado, não se preocupe! Seus ingressos permanecem
+                                    automaticamente válidos para a nova data, sem necessidade de troca-los para ver o
+                                    seu artista favorito quando tudo isso passar! 😊
+                                </p>
+                                <p>
+                                    Caso seu evento tenha sido adiado e ainda não tenha nova data para acontecer,
+                                    informamos que as produções estão trabalhando para que a confirmação venha o quanto
+                                    antes e assim que possível, informaremos você.
+                                </p>
+
+                            </div>
+
+                            <div class="card-footer">
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="card-container">
+                            <div class="card-header">
+                                <img src="assets/img/ticket_canceled.svg" class="icon"
+                                    alt="ticket representando eventos cancelados">
+                                <span class="title">Eventos Cancelados</span>
+                            </div>
+
+                            <div class="card-content">
+                                <p>
+                                    - Seu evento foi cancelado? </br>
+                                    - Que pena! 😕
+                                </p>
+
+                                <p>
+                                    Confira abaixo as instruções para manter o valor
+                                    em crédito para usar futuramente ou solicitar o reembolso.
+                                </p>
+
+
+                                <ul>
+                                    <li>
+                                        <strong>Crédito</strong> - Você fica com o valor pago em aberto para utilizar
+                                        futuramente, sem multas na
+                                        sua
+                                        IRWallet. Ao escolher esta opção, o crédito poderá ser visualizado em sua conta
+                                        no
+                                        prazo de até 07 dias e terá validade de até 12 meses, a contar da data de
+                                        solicitação do crédito. Lembre-se que é necessário estar cadastrado em nosso
+                                        site
+                                        para que o crédito seja atribuído à sua conta.
+                                    </li>
+
+                                    <li>
+                                        <strong>Reembolso</strong> - Você recebe de volta parte do valor pago,
+                                        descontadas cobranças, como multa de
+                                        reembolso. O prazo para a devolução é de até 12 meses, a partir da data do final
+                                        do
+                                        estado de calamidade pública, conforme estipulado pela MP 948.
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <div class="card-footer">
+                                <button class="button-tile">
+                                    Saiba mais
+                                    <img src="assets/img/chevron-right.svg" alt="saber mais">
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+        </div>
+        <section class="image-container bottom">
+        </section>
+
+        <div class="">
+            <section class="tutorial-container">
+
+                <div class="container">
+                    <h2 class="subtitle">
+                        Confira o passo a passo:
+                    </h2>
+                </div>
+
+
+                <div class="content left">
+                    <div class="ordinal-container">
+                        <span class="ordinal">
+                            1
+                        </span>
+                    </div>
+                    <div class="info-container">
+                        <p>
+                            Faça o login e acesse "Meus Pedidos”.
+                        </p>
+                        <p>
+                            Vá em "Mais detalhes" da compra que deseja pedir créditos ou reembolso.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="assets/img/my_orders.gif" alt="">
+                    </div>
+                </div>
+
+                <div class="content right">
+                    <div>
+                        <img src="assets/img/more_details.gif" alt="">
+                    </div>
+                    <div class="ordinal-container">
+                        <span class="ordinal">
+                            2
+                        </span>
+                    </div>
+                    <div class="info-container">
+                        <p>
+                            Clique em "Mais detalhes" da compra.
+                        </p>
+                        <p>
+                            e escolha a opção de "Quero transformar em créditos"
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content left">
+                    <div class="ordinal-container">
+                        <span class="ordinal">
+                            3
+                        </span>
+                    </div>
+                    <div class="info-container">
+                        <p>
+                            Confira os dados do pedido de estorno.
+                        </p>
+                        <p>
+                            Se estiver tudo certo clique em "Confirmar" e aguarde.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="assets/img/credits_request.gif" alt="">
+                    </div>
+                </div>
+
+                <div class="content right">
+                    <div>
+                        <img src="assets/img/success.gif" alt="">
+                    </div>
+                    <div class="ordinal-container">
+                        <span class="ordinal">
+                            4
+                        </span>
+                    </div>
+                    <div class="info-container">
+                        <p>
+                            Seu pedido de resgate com sucesso.
+                        </p>
+                        <p>
+                            Agora espere por mais informações no seu email.
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="center">
+            <a href="https://site.ingressorapido.com.br/sac/" class="button-iris">
+                <img src="assets/img/iris.png" alt="assistente virtual da ingresso rápido">
+                <span class="text">
+                    Ficou alguma dúvida? Clique aqui e fale com a IRis
+                </span>
+            </a>
+        </div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo-container">
+                    <a href="https://www.ingressorapido.com.br/">
+                        <img src="assets/img/logo-white.svg" alt="ingresso rápido">
+                    </a>
+                </div>
+
+                <div class="group-list">
+                    INSTITUCIONAL
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.ingressorapido.com.br/about">Sobre a Ingresso Rápido</a></li>
+                        <li><a href="https://sac.ingressorapido.com.br/">Fale Conosco</a></li>
+                        <li><a href="https://site.ingressorapido.com.br/newsletter/">Assine Nossa News</a></li>
+                        <li><a href="https://careers.ingressorapido.com.br/">Carreiras</a></li>
+                        <li><a href="https://www.ingressorapido.com.br/sales-point">Pontos de Venda</a></li>
+                    </ul>
+                </div>
+
+                <div class="group-list">
+                    POLÍTICAS
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.ingressorapido.com.br/policies">Políticas de Vendas</a></li>
+                        <li><a href="https://www.ingressorapido.com.br/privacy">Políticas de Privacidade</a>
+                        </li>
+                        <li><a href="https://site.ingressorapido.com.br/meiaentrada/">Políticas de Meia Entrada</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="group-list">
+                    CLIENTES
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://www.ingressorapido.com.br/commercial">Seja Nosso Parceiro</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="app_market-container group-list">
+                    COMPRE PELO APP
+                    <ul class="list-unstyled horizontal_list app_market">
+                        <li>
+                            <a
+                                href="https://itunes.apple.com/br/app/ingresso-rapido/id1000809331?l=pt&referrer=utm_source%3Dingressorapido%26utm_medium%3DBanner%2520Web%26utm_campaign%3DiOS%2520Footer%2520Web">
+                                <img src="assets/img/appstore.png" alt="apple store" />
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://play.google.com/store/apps/details?id=com.ir.ticket&referrer=utm_source%3Dingressorapido%26utm_medium%3DBanner%2520Web%26utm_campaign%3DAndroid%2520Footer%2520Web">
+                                <img src="assets/img/googleplay.png" alt="google play" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="white" />
+            <div class="legal-content">
+                <div class="corp">
+                    © 2019 Ingresso Rápido. Todos os direitos reservados.
+                    <ul class="list-unstyled horizontal_list social_list">
+                        <li>
+                            <a href="https://www.facebook.com/IngressoRapido/">
+                                <img src="assets/img/icon-facebook.svg" alt="facebook" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/ingressorapido">
+                                <img src="assets/img/icon-twitter.svg" alt="twitter" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/ingressorapidooficial/">
+                                <img src="assets/img/icon-instagram.svg" alt="instagram" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/1374083/">
+                                <img src="assets/img/icon-linkedin.svg" alt="linkedin" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    Empresa Brasileira de Comercialização de Ingressos – Alameda Tocantins, 350 - 1° andar conj. 101
+                    Alphaville, Barueri - São Paulo, CEP: 06455-020 – CNPJ 15.150.423/0001-65
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
