@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel index.html",
     "prebuild": "npm run test",
-    "build": "parcel build index.html --public-url /preview",
+    "build": "parcel build index.html --public-url /preview --out-dir /build/preview",
     "test": "pa11y-ci ./index.html"
   },
   "keywords": [],
