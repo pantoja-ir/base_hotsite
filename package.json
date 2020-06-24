@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel index.html --open",
     "prebuild": "npm run test",
-    "build": "parcel build index.html --public-url /preview --out-dir /build/preview",
+    "build": "parcel build index.html --public-url /alteracao-cancelamentos --out-dir build/alteracao-cancelamentos",
     "test": "pa11y-ci ./index.html"
   },
   "keywords": [],
